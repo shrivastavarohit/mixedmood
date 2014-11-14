@@ -1,0 +1,27 @@
+.container
+            {
+                width: 2000px;
+                margin: 0 auto;
+            }
+
+.ex1 
+            {
+                margin-top: 3cm;
+                margin-left: 3cm;
+            }
+
+.padded 
+            {
+                padding-top: 500px;  
+                padding-right: 100px; 
+                padding-bottom: 0.25in;  
+                padding-left: 0px;  
+            }
+
+@media all and (max-width: 1000px) 
+            {
+            .container
+            {
+                width: 100%;
+            }
+            }
