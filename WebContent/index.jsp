@@ -1,4 +1,5 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib prefix="s" uri="/struts-tags"%>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -55,13 +56,21 @@
 
       <form class="form-signin" action="http://localhost:8080/mixedmood/login.action">
         <h2 class="form-signin-heading">Please sign in</h2>
-        <input type="text" class="input-block-level" placeholder="Email">
-        <input type="password" class="input-block-level" placeholder="Password">
-        <label class="checkbox">
+       <!--   <s:form action="login.action" method="post"> -->
+        	<s:textfield name="email" key="label.email" size="20"/>
+			<s:password name="password" key="label.password" size="20" />
+			<s:checkbox name="remember me" key="label.rememberme" />
+				<!--<s:submit method="execute" key="label.login" align="center" />
+	 </s:form> -->
+			
+			
+        <!--  <input type="text" class="input-block-level" placeholder="Email"> -->
+        <!--   <input type="password" class="input-block-level" placeholder="Password"> -->
+        <!--  <label class="checkbox">
           <input type="checkbox" value="remember-me"> Remember me
-        </label>
+        </label>-->
         <button class="btn btn-large btn-primary" type="submit">Sign in</button>
-      </form>
+      </form>-->
 
     </div> <script src="bootstrap/bootstrap/js/jquery.js"></script>
     <script src="bootstrap/bootstrap/js/bootstrap-transition.js"></script>

@@ -7,6 +7,7 @@
 package com.gbc.generic.action;
 
 import com.gbc.generic.constants;
+import com.opensymphony.xwork2.ActionSupport;
 
 /**
  * 
@@ -15,7 +16,13 @@ import com.gbc.generic.constants;
  * purpose : helps users authenticate themselves on the site when they login
  * 
  */
-public class login {
+public class login extends ActionSupport {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public String execute(){
 	
 		/**

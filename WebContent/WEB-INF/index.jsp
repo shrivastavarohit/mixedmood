@@ -9,10 +9,8 @@
 <body>
 <h1>This will be the landing page, we will do this later</h1>
 
-<p>
 <h2>For now login </h2>
 <a href="http://localhost:8080/mixedmood/login.action">Login Here</a>
-</p>
 </body>
 </html>
 
