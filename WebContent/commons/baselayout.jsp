@@ -35,20 +35,12 @@
 </head>
 
 <body>
- 	<table border="0" cellpadding="2" cellspacing="2" align="center">
-	    <tr>
-	        <td height="30" colspan="2"><tiles:insertAttribute name="header" />
-	        </td>
-	    </tr>
-	    <tr>
+ 	        <tiles:insertAttribute name="header" />
+	    <!-- we will add the menu later for now I am disabling this -->
 	        <!-- <td height="250"><tiles:insertAttribute name="menu" /></td>-->
 	        <td width="350"><tiles:insertAttribute name="body" /></td>
-	    </tr>
-	    <tr>
-	        <td height="30" colspan="2"><tiles:insertAttribute name="footer" />
-	        </td>
-	    </tr>
-	</table>
+			<tiles:insertAttribute name="footer" />
+
 
    <!-- jQuery -->
     <script src="js/jquery.js"></script>

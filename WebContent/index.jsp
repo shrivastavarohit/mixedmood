@@ -54,7 +54,7 @@
     <body>
     <div class="container">
 
-      <form class="form-signin" action="http://localhost:8080/mixedmood/login.action">
+      <form class="form-signin" action="/mixedmood/login.action" method="post">
         <h2 class="form-signin-heading">Please sign in</h2>
        <!--   <s:form action="login.action" method="post"> -->
         	<s:textfield name="email" key="label.email" size="20"/>

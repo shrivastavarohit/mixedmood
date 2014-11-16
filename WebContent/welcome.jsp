@@ -13,12 +13,15 @@
                     <div class="panel-body">
                         <form role="form">
                             <fieldset>
-                                <div class="form-group">
-                                    <input class="form-control" placeholder="E-mail" name="email" type="email" autofocus>
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" placeholder="Password" name="password" type="password" value="">
-                                </div>
+		                            <div class="input-group input-group-lg">
+									  <span class="input-group-addon">@</span>
+									  <input type="text" class="form-control" placeholder="E-Mail" name="email" autofocus>
+									</div>
+                            		<div class="input-group input-group-lg">
+									  <span class="input-group-addon">** </span>
+									  <input type="text" class="form-control" placeholder="Password" name="password">
+									</div>
+
                                 <div class="checkbox">
                                     <label>
                                         <input name="remember" type="checkbox" value="Remember Me">Remember Me
