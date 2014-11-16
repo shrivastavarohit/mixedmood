@@ -35,12 +35,17 @@
 </head>
 
 <body>
+
+<!--  just added to check the theme  -->
+   <div id="wrapper">
+
  	        <tiles:insertAttribute name="header" />
 	    <!-- we will add the menu later for now I am disabling this -->
 	        <!-- <td height="250"><tiles:insertAttribute name="menu" /></td>-->
 	        <td width="350"><tiles:insertAttribute name="body" /></td>
 			<tiles:insertAttribute name="footer" />
-
+  
+   </div id="wrapper">
 
    <!-- jQuery -->
     <script src="js/jquery.js"></script>

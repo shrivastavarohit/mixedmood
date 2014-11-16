@@ -18,7 +18,7 @@
 									  <input type="text" class="form-control" placeholder="E-Mail" name="email" autofocus>
 									</div>
                             		<div class="input-group input-group-lg">
-									  <span class="input-group-addon">** </span>
+									  <span class="input-group-addon">***</span>
 									  <input type="text" class="form-control" placeholder="Password" name="password">
 									</div>
 
@@ -28,7 +28,8 @@
                                     </label>
                                 </div>
                                 <!-- Change this to a button or input when using this as a form -->
-                                <a href="index.html" class="btn btn-lg btn-success btn-block">Login</a>
+                                <button type="button" class="btn btn-outline btn-primary btn-block">Login</button>
+                                <!-- <a href="index.html" class="btn btn-lg btn-success btn-block">Login</a> -->
                             </fieldset>
                         </form>
                     </div>
