@@ -37,19 +37,12 @@
 <body>
 
 <!--  just added to check the theme  -->
-
    <div id="wrapper">
 
  	        <tiles:insertAttribute name="header" />
- 	    
 	    <!-- we will add the menu later for now I am disabling this -->
-	        <tiles:insertAttribute name="menu" />
-
-	    <!-- Adding page wrapper this keeps everything working properly while resizing windows otherwise components overlap on each other -->
-	        <div id="page-wrapper">
-	        	<tiles:insertAttribute name="body" />
-        	</div id=page-wrapper">
-        	
+	        <!-- <td height="250"><tiles:insertAttribute name="menu" /></td>-->
+	        <td width="350"><tiles:insertAttribute name="body" /></td>
 			<tiles:insertAttribute name="footer" />
   
    </div id="wrapper">

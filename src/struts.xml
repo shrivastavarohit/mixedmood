@@ -15,12 +15,21 @@
             <result-type name="tiles"
                 class="org.apache.struts2.views.tiles.TilesResult" />
         </result-types>
-        
+  
+ 
         <action name="login"
             class="com.gbc.generic.action.login">
             <result name="success" type="tiles">/welcome.tiles</result>
             <result name="error">Login.jsp</result>
         </action>
+
+<!--      
+       <action name="login"
+            class="com.gbc.generic.action.login">
+            <result name="success" type="tiles">/test.tiles</result>
+            <result name="error">Login.jsp</result>
+        </action>
+-->          
      </package>
   
   </struts>

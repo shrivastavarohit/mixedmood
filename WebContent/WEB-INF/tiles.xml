@@ -15,4 +15,10 @@
         <put-attribute name="title" value="Welcome" />
         <put-attribute name="body" value="/welcome.jsp" />
     </definition>
+    
+    <definition name="/test.tiles" extends="baseLayout">
+        <put-attribute name="title" value="test theme" />
+        <put-attribute name="body" value="/testbody.jsp" />
+    </definition>
+    
 </tiles-definitions>
