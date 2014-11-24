@@ -11,14 +11,25 @@
         <put-attribute name="body" value="" />
         <put-attribute name="footer" value="/commons/footer.jsp" />
     </definition>
-    <definition name="/welcome.tiles" extends="baseLayout">
+    
+    <!-- Special definnition for login page ONLY -->
+    <definition name="loginLayout" template="/commons/loginLayout.jsp">
+        <put-attribute name="title" value="" />
+        <put-attribute name="header" value="/commons/header.jsp" />
+        <!--  <put-attribute name="menu" value="/commons/menu.jsp" /> -->
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/commons/footer.jsp" />
+    </definition>
+ 
+    <definition name="/welcome.tiles" extends="loginLayout">
         <put-attribute name="title" value="Welcome" />
         <put-attribute name="body" value="/welcome.jsp" />
     </definition>
     
-    <definition name="/test.tiles" extends="baseLayout">
-        <put-attribute name="title" value="test theme" />
+    <definition name="/employeeLanding.tiles" extends="baseLayout">
+        <put-attribute name="title" value="Employee Dashboard" />
         <put-attribute name="body" value="/testbody.jsp" />
     </definition>
+    
     
 </tiles-definitions>

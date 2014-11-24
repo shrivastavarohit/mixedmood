@@ -1,7 +1,7 @@
        <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Next Page</h1>
+                    <h1 class="page-header">Employee Summary</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>

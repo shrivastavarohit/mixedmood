@@ -18,10 +18,18 @@
   
  
         <action name="login"
-            class="com.gbc.generic.action.login">
+            class="com.gbc.generic.action.LoginAction">
             <result name="success" type="tiles">/welcome.tiles</result>
-            <result name="error">Login.jsp</result>
+            <result name="input">Login.jsp</result>
         </action>
+       
+        <action name="employeeSummary"
+            class="com.gbc.action.employee.EmployeeSummaryAction">
+            <result name="success" type="tiles">/employeeLanding.tiles</result>
+            <result name="input" type="tiles">/welcome.tiles</result>
+             <result name="error" type="tiles">/welcome.tiles</result>
+        </action>
+        
 
 <!--      
        <action name="login"

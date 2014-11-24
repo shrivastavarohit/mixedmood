@@ -42,9 +42,6 @@
 
  	        <tiles:insertAttribute name="header" />
  	    
-	    <!-- we will add the menu later for now I am disabling this -->
-	        <tiles:insertAttribute name="menu" />
-
 	    <!-- Adding page wrapper this keeps everything working properly while resizing windows otherwise components overlap on each other -->
 	        <!-- <div id="page-wrapper"> -->
 	        	<tiles:insertAttribute name="body" />
